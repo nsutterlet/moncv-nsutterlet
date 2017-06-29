@@ -3,7 +3,6 @@ import 'bootstrap';
 import 'bootswatch/superhero/bootstrap.min.css';
 import './main.css';
 import Chart from 'chart.js';
-import ReactTooltip from 'react-tooltip';
 
 $(document).ready(function () {
     transformPage();
@@ -52,7 +51,3 @@ function transformPage () {
         makeChart(c, val);
     }
 }
-$('.profile-img').ReactTooltip({
-    direction: 'left',
-    follow: true
-});
