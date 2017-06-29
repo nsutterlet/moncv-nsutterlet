@@ -3,6 +3,7 @@ import 'bootstrap';
 import 'bootswatch/superhero/bootstrap.min.css';
 import './main.css';
 import Chart from 'chart.js';
+import ReactTooltip from 'react-tooltip';
 
 $(document).ready(function () {
     transformPage();
@@ -28,11 +29,16 @@ function makeChart (c, val) {
 
             datasets: [
                 {
+                    backgroundColor: ['#000000', '#8e5ea2'],
+                    borderColor: ['#000000', '#000000'],
                     data: [100 - val, val]
                 }
             ]
         },
-        width: 50
+        options: {
+            tooltips: { enabled: false },
+            hover: { mode: null }
+        }
     };
     new Chart(c, option);
 }
@@ -46,3 +52,7 @@ function transformPage () {
         makeChart(c, val);
     }
 }
+$('.profile-img').ReactTooltip({
+    direction: 'left',
+    follow: true
+});

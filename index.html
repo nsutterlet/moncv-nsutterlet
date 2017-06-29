@@ -9,14 +9,36 @@
 </head>
 
 <body>
+<header class="header">
+		<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#custom-collapse">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
 
-  <header class="header">
+				<div class="collapse navbar-collapse" id="custom-collapse">
+					<ul class="nav navbar-nav navbar-left">
+						<li><a href="#home">Home</a></li>
+						<li><a href="#about">Compétence</a></li>
+						<li><a href="#resume">Expérience</a></li>
+						<li><a href="#skills">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
+					</ul>
+				</div>
+			</div><!-- .container -->
+		</nav>
+	</header><!-- End Navigation -->
+
     <div class="container">
       <div class="row">
         <div class="col-md-3">
-          <div class="profile-img">
-            <img src="http://www.patric-concept.ch/wp-content/uploads/2016/10/photo-2016-10-05-Nicolas-Sutterlet-2-1500x1500.jpg" class="img-responsive"
-              alt="" />
+          <div class="profile">
+            <img src="static/Nicolas_Sutterlet.jpg" class="img-circle" height=230px data-tip="hello world"
+              alt="Image de Nicolas Sutterlet" />
           </div>
           <!-- Profile Image -->
         </div>
@@ -58,77 +80,75 @@
         </div>
       </div>
     </div>
-  </header>
-  <!-- .header-->
-
-
+  
   <section>
     <div class="container">
       <div class="row">
-
-        <div class="col-md-2">
-        </div>
-        <div class="col-md-4">
-
-          <div class="chart">
-            <h4>Java</h4>
-            <div class="progress">
-              <div class="progress-bar progress-bar-warning progress-bar-striped" role="progressbar" aria-valuenow="80" aria-valuemin="0"
-                aria-valuemax="100" style="width: 80%">
-                80% effectué
-              </div>
-            </div>
-
+        <div class="col-md-3">
+          <div class="section-title">
+            <h2>COMPETENCE</h2>
           </div>
-        </div>
+           </div>
+        <div class="col-md-9">
+          <div class="col-md-3">
 
-        <div class="col-md-4">
-          <div class="chart">
-            <h4>HTML/CSS</h4>
-            <div class="progress">
-              <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="40" aria-valuemin="0"
-                aria-valuemax="100" style="width: 40%">
-                40% effectué
+            <div class="chart">
+              <h4>Java</h4>
+              <div class="progress">
+                <div class="progress-bar progress-bar-warning progress-bar-striped" role="progressbar" aria-valuenow="80" aria-valuemin="0"
+                  aria-valuemax="100" style="width: 80%">
+                  80% effectué
+                </div>
               </div>
             </div>
           </div>
-        </div>
-      </div>
 
-      <div class="row">
-
-        <div class="col-md-2">
-        </div>
-
-        <div class="col-md-4">
-          <div class="chart">
-            <h4>SQL</h4>
-            <div class="progress">
-              <div class="progress-bar progress-bar-warning progress-bar-striped" role="progressbar" aria-valuenow="100" aria-valuemin="0"
-                aria-valuemax="100" style="width: 100%">
-                100% effectué
+          <div class="col-md-3">
+            <div class="chart">
+              <h4>HTML/CSS</h4>
+              <div class="progress">
+                <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="40" aria-valuemin="0"
+                  aria-valuemax="100" style="width: 40%">
+                  40% effectué
+                </div>
               </div>
             </div>
           </div>
-        </div>
 
-        <div class="col-md-4">
-          <div class="chart">
-            <h4>BPMS</h4>
-            <div class="progress">
-              <div class="progress-bar progress-bar-danger progress-bar-striped" role="progressbar" aria-valuenow="100" aria-valuemin="0"
-                aria-valuemax="100" style="width: 100%">
-                100% effectué
+          <div class="col-md-3">
+
+
+
+            <div class="chart">
+              <h4>SQL</h4>
+              <div class="progress">
+                <div class="progress-bar progress-bar-warning progress-bar-striped" role="progressbar" aria-valuenow="100" aria-valuemin="0"
+                  aria-valuemax="100" style="width: 100%">
+                  100% effectué
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-      <div class="row">
-
-        <div class="col-md-2">
         </div>
-        <div class="col-md-4">
+       <div class="row">
+            <div class="col-md-3"> </div>
+            <div class="col-md-9">
+              <div class='col-md-3'>
+              <div class="chart">
+                <h4>BPMS</h4>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-danger progress-bar-striped" role="progressbar" aria-valuenow="100" aria-valuemin="0"
+                    aria-valuemax="100" style="width: 100%">
+                    100% effectué
+                  </div>
+                </div>
+              </div>
+            </div>
+        
+
+        
+        <div class="col-md-3">
           <div class="chart">
             <h4>UML</h4>
             <div class="progress">
@@ -139,7 +159,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-3">
           <div class="chart">
             <h4>Modélisation</h4>
             <div class="progress">
@@ -152,7 +172,7 @@
         </div>
       </div>
     </div>
-
+    </div>
   </section>
 
   <section>
