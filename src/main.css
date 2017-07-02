@@ -16,8 +16,8 @@ body {
 font-family: Verdana, serif, Arial, sans-serif, Consolas, monospace;
 font-style: normal, italic;
 font-weight: normal, bold, 100-900;
-font-size: 20px;
 line-height: 30px;
+font-size: 14px;
 
    
 }
@@ -41,7 +41,7 @@ h4 {
 }
 h5 {
      font-size: 14px;
-     line-height:15px;
+     
 
 }
 p {
@@ -57,7 +57,10 @@ p {
     margin-top: 30px;
      
 }
-
+.table{
+    text-align:left;
+    font-size: 14px;
+}
 #competence h4 {
 
     text-align: center;
