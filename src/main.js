@@ -3,9 +3,20 @@ import 'bootstrap';
 import 'bootswatch/superhero/bootstrap.min.css';
 import './main.css';
 import Chart from 'chart.js';
+import 'lightbox2';
 
 $(document).ready(function () {
     transformPage();
+
+    $('.lightbox_trigger').click(function (e) {
+        displayImg(e, this);
+    });
+
+     // Fermeture de la lightbox par un clique
+    $('#lightbox').on('click', function () {
+        $('#lightbox').hide();
+    });
+
     console.log('it works!!');
 });
 
@@ -50,4 +61,18 @@ function transformPage () {
         $(progress).replaceWith(c);
         makeChart(c, val);
     }
+}
+
+ // Empêche l'action de base du lien
+function displayImg (e, link) {
+    e.preventDefault();
+
+    let imgHref = $(link).attr('href');
+    let dataTitel = $(link).attr('title');
+
+    // Place l'image et le titre sur la page
+    $('#content').html('<img src="' + imgHref + '" />');
+    $('#info').html('<h5>' + dataTitel + '<h5/>');
+
+    $('#lightbox').show();
 }
