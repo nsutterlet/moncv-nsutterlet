@@ -14,8 +14,6 @@ text-transform: uppercase;
 
 body {
 font-family: Verdana, serif, Arial, sans-serif, Consolas, monospace;
-font-style: normal, italic;
-font-weight: normal, bold, 100-900;
 line-height: 30px;
 font-size: 14px;
 
@@ -210,7 +208,7 @@ timeline>li .timeline-panel::before {
     top: 0;
     float: left;
      text-align: center;
-     
+     font-size:18px;
 }
 
 .timeline>li.timeline-inverted>.timeline-panel {

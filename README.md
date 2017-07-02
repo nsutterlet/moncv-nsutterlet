@@ -10,7 +10,7 @@ Les outils suivants ont été utilisés pour ce projet :
     
 * Node.js (moteur JavaScript) : https://nodejs.org/
 
-* Navigateur web google chrome pour l'outils de développment ainsi que les différentes recherches
+* Navigateur web google chrome pour l'outils de développment, les différentes recherches effectuées pour le développment de ce projet et ainsi que pour valider mes fichiers HTML et CSS
 
 
 ### Préparation pour le début du projet
@@ -144,6 +144,12 @@ Pour mettre  la branche master dans origin, tapez :
 git push 
 ```
 ### Informations du documents
+Le fichier HTML a été validé via https://validator.w3.org/
+Le fichier CSS a été validé via https://jigsaw.w3.org/css-validator/
+Les deux tests ont été effectués avec succès.
+
 Auteur : Nicolas Sutterlet
+
 Date : 2017-07-02
+
 Version : 2.0.0
