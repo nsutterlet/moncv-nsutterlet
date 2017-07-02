@@ -59,6 +59,8 @@ p {
     text-align:left;
     font-size: 14px;
 }
+
+/* Compétence */
 #competence h4 {
 
     text-align: center;
@@ -85,7 +87,7 @@ canvas {
 
 
 
-/* IMAGE JAVASCRIPT LIGHTBOX */
+/* Expériences */
 
 #lightbox p {
     text-align:right; 
@@ -124,7 +126,7 @@ canvas {
    margin-right:auto;
    text-align:justify;
 }
-/* FORMATION */
+/* Compétence et Formation */
 
 .timeline {
     position: relative;
