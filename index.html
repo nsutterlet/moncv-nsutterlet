@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="fr">
 
 <head>
   <meta charset="utf-8">
@@ -9,40 +9,43 @@
 </head>
 
 <body>
+
   <header class="header">
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#custom-collapse">
+    
+      <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#custom-collapse">
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-        </div>
+          </div>
 
-        <div class="collapse navbar-collapse" id="custom-collapse">
-          <ul class="nav navbar-nav navbar-left">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">Compétence</a></li>
-            <li><a href="#resume">Expérience</a></li>
-            <li><a href="#skills">Education</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
+          <div class="collapse navbar-collapse" id="custom-collapse">
+            <ul class="nav navbar-nav navbar-left">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#competence">Compétences</a></li>
+              <li><a href="#experiences">Expériences</a></li>
+              <li><a href="#formation">Formation</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
         </div>
-      </div>
-      <!-- .container -->
-    </nav>
+        <!-- .container -->
+      </nav>
+
   </header>
   <!-- End Navigation -->
-
+  <section id="home">
   <div class="container">
+
     <div class="row">
       <div class="col-md-3">
-        <div class="profile">
-         
-               <img src="static/Nicolas_Sutterlet.jpg" class="img-circle" height=230px data-tip="hello world"   alt="Image de Nicolas Sutterlet" />
 
-        </div>
+
+        <img src="static/Nicolas_Sutterlet.jpg" class="img-circle" alt="Image de Nicolas Sutterlet" />
+
         <!-- Profile Image -->
       </div>
       <div class="col-md-9">
@@ -53,8 +56,7 @@
         <p>
           Les informaticien-ne-s de gestion exercent un métier à haute valeur ajoutée dans des secteurs variés. Il s’agit de spécialistes
           très recherchés par les entreprises. Pluridisciplinaire, les études en Informatique de gestion permettent d’acquérir
-          des compétences en développement informatique, en ingénierie logicielle et en système d’information. Le cursus
-          intègre également au cursus une formation en gestion et communication.
+          des compétences en développement informatique, en ingénierie logicielle et en système d’information.
         </p>
 
 
@@ -83,13 +85,13 @@
       </div>
     </div>
   </div>
-
-  <section>
+  </section>
+  <section id="competence">
     <div class="container">
       <div class="row">
         <div class="col-md-3">
           <div class="section-title">
-            <h2>COMPETENCE</h2>
+            <h2><span class="glyphicon glyphicon-signal"></span> Compétences</h2>
           </div>
         </div>
         <div class="col-md-9">
@@ -98,8 +100,8 @@
             <div class="chart">
               <h4>Java</h4>
               <div class="progress">
-                <div class="progress-bar progress-bar-warning progress-bar-striped" role="progressbar" aria-valuenow="80" aria-valuemin="0"
-                  aria-valuemax="100" style="width: 80%">
+                <div class="progress-bar progress-bar-sucess progress-bar-striped" role="progressbar" aria-valuenow="75" aria-valuemin="0"
+                  aria-valuemax="100" style="width: 100%">
                   80% effectué
                 </div>
               </div>
@@ -110,8 +112,8 @@
             <div class="chart">
               <h4>HTML/CSS</h4>
               <div class="progress">
-                <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar" aria-valuenow="40" aria-valuemin="0"
-                  aria-valuemax="100" style="width: 40%">
+                <div class="progress-bar progress-bar-info progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0"
+                  aria-valuemax="100" style="width: 100%">
                   40% effectué
                 </div>
               </div>
@@ -125,7 +127,7 @@
             <div class="chart">
               <h4>SQL</h4>
               <div class="progress">
-                <div class="progress-bar progress-bar-warning progress-bar-striped" role="progressbar" aria-valuenow="100" aria-valuemin="0"
+                <div class="progress-bar progress-bar-sucess progress-bar-striped" role="progressbar" aria-valuenow="75" aria-valuemin="0"
                   aria-valuemax="100" style="width: 100%">
                   100% effectué
                 </div>
@@ -141,7 +143,7 @@
             <div class="chart">
               <h4>BPMS</h4>
               <div class="progress">
-                <div class="progress-bar progress-bar-danger progress-bar-striped" role="progressbar" aria-valuenow="100" aria-valuemin="0"
+                <div class="progress-bar progress-bar-info progress-bar-striped" role="progressbar" aria-valuenow="60" aria-valuemin="0"
                   aria-valuemax="100" style="width: 100%">
                   100% effectué
                 </div>
@@ -155,8 +157,8 @@
             <div class="chart">
               <h4>UML</h4>
               <div class="progress">
-                <div class="progress-bar progress-bar-info progress-bar-striped" role="progressbar" aria-valuenow="30" aria-valuemin="0"
-                  aria-valuemax="100" style="width: 30%">
+                <div class="progress-bar progress-bar-danger progress-bar-striped" role="progressbar" aria-valuenow="30" aria-valuemin="0"
+                  aria-valuemax="100" style="width: 100%">
                   30% effectué
                 </div>
               </div>
@@ -166,8 +168,8 @@
             <div class="chart">
               <h4>Modélisation</h4>
               <div class="progress">
-                <div class="progress-bar progress-bar-info progress-bar-striped" role="progressbar" aria-valuenow="70" aria-valuemin="0"
-                  aria-valuemax="100" style="width: 70%">
+                <div class="progress-bar progress-bar-sucess progress-bar-striped" role="progressbar" aria-valuenow="75" aria-valuemin="0"
+                  aria-valuemax="100" style="width: 100%">
                   50% effectué
                 </div>
               </div>
@@ -179,174 +181,44 @@
   </section>
 
 
+  <div id="parcours">
+    <section id="experiences">
 
-  <section>
-
-    <div class="container">
-      <div class="row">
-        <div class="col-md-3">
-          <div class="section-title">
-            <h2>Expérience</h2>
-          </div>
-        </div>
-
-      <div class="col-md-9">
+      <div class="container">
         <div class="row">
-          <div class="resume">
-            <ul class="timeline">
-              <li>
-                <div class="posted-date">
-                  <span class="month">03.2016 - Aujourd'hui</span>
-                </div>
-                <!-- /posted-date -->
-
-                <div class="timeline-panel wow fadeInUp">
-                  <div class="timeline-content">
-
-                    <a class="lightbox_trigger" href="static/patric_concept.png" title="Entreprise d'automation basé à 2013 Colombier">
-                      <h3>Patric concept SA</h3>
-                    </a>
-
-
-                    <p>Colombier, Neuchâtel</p>
-
-
-                    <div class="timeline-body">
-                      <h4>Assistant Finances et Administration</h4>
-                      <h5>Gestion complète de la comptabilité et Finances </h5>
-                    </div>
-
-                  </div>
-
-                </div>
-
-              </li>
-              <li class="timeline-inverted">
-                <div class="posted-date">
-                  <span class="month">08.2015-02.2016</span>
-                </div>
-                <!-- /posted-date -->
-
-                <div class="timeline-panel wow fadeInUp">
-                  <div class="timeline-content">
-
-                    <a class="lightbox_trigger" href="static/patric_metal.png" title="Entreprise machine/outil basé à 2206 Les Geneveys-sur-Coffrane">
-                      <h3>Patric métal SA</h3>
-                    </a>
-
-
-                    <div class="timeline-body">
-                      <h4> Collaborateur Finances</h4>
-                      <h5>Aide pour la comptabilité et Finances </h5>
-
-                      <p>Geneveys-sur-Coffrane, Neuchâtel</p>
-                    </div>
-
-                  </div>
-
-                </div>
-
-              </li>
-              <li class="timeline">
-                <div class="posted-date">
-                  <span class="month">03.2015 - 07.2015</span>
-                </div>
-                <!-- /posted-date -->
-
-                <div class="timeline-panel wow fadeInUp">
-                  <div class="timeline-content">
-
-
-
-                    <a class="lightbox_trigger" href="static/armee_ch.png" title="Entreprise machine/outil basé à -2206 Les Geneveys-sur-Coffrane">
-                      <h3>Armée Suisse</h3>
-
-                    </a>
-                    <h4>Ordonnance de Bureau</h4>
-                    <h5>Ecole de Recrue </h5>
-
-                    <p>Airolo, Tessin</p>
-
-                  </div>
-
-
-
-
-                </div>
-
-          
-
-          </li>
-          <li class="timeline-inverted">
-            <div class="posted-date">
-              <span class="month">08.2014 - 02.2015</span>
+          <div class="col-md-3">
+            <div class="section-title">
+              <h2> <span class="glyphicon glyphicon-briefcase"></span> Expériences</h2>
             </div>
-            <!-- /posted-date -->
-
-            <div class="timeline-panel wow fadeInUp">
-              <div class="timeline-content">
-
-                <a class="lightbox_trigger" href="static/patric_metal.png" title="Entreprise machine/outil basé à 2206 Les Geneveys-sur-Coffrane">
-                  <h3>Patric métal SA</h3>
-                </a>
-
-
-                <div class="timeline-body">
-                  <h4> Collaborateur Finances</h4>
-                  <h5>Aide pour la comptabilité et Finances </h5>
-
-                  <p>Geneveys-sur-Coffrane, Neuchâtel</p>
-                </div>
-
-              </div>
-
-            </div>
-
-          </li>
-          </ul>
-        </div>
-        <!--.row-->
-      </div>
-
-    </div>
-    <!--.row-->
-    </div>
-    <!-- .container -->
-
-  </section>
-
-
-
-  <section>
-
-    <div class="container">
-      <div class="row">
-        <div class="col-md-3">
-          <div class="section-title">
-            <h2>Formation</h2>
           </div>
         </div>
+        <div class="row">
+          <div class="col-md-3">
+          </div>
 
-        <div class="col-md-9">
-          <div class="row">
+
+          <div class="col-md-9">
             <div class="resume">
               <ul class="timeline">
-                <li>
+                 <li class="timeline">
                   <div class="posted-date">
-                    <span class="month">2015- 2019</span>
+                    <span class="month">03.2016 - Aujourd'hui</span>
                   </div>
                   <!-- /posted-date -->
 
                   <div class="timeline-panel wow fadeInUp">
                     <div class="timeline-content">
 
-                      <h3>Bachelor en Informatique de Gestion</h3>
-                      <span>Haute Ecole de Gestion ARC</span>
+                      <a class="lightbox_trigger" href="static/patric_concept.png" title="Patric concept SA est votre partenaire pour toute conception et réalisation de machines & d’installations sur mesure, de systèmes de transport et d’équipements industriels.">
+                        <h3>Patric concept SA</h3>
+                      </a>
 
 
-                      <div class="timeline-body">
-                        <p>Espace de l'Europe 11, Neuchâtel</p>
-                      </div>
+
+                      <h4>Assistant Finances et Administration</h4>
+                      <h5>Gestion complète comptabilité et Finances </h5>
+                      <h5>Colombier, Neuchâtel</h5>
+
 
                     </div>
 
@@ -355,20 +227,23 @@
                 </li>
                 <li class="timeline-inverted">
                   <div class="posted-date">
-                    <span class="month">2014</span>
+                    <span class="month">08.2015 - 02.2016</span>
                   </div>
                   <!-- /posted-date -->
 
                   <div class="timeline-panel wow fadeInUp">
                     <div class="timeline-content">
 
-                      <h3>Maturité commerciale</h3>
-                      <span>Lycée Jean-Piaget</span>
+                      <a class="lightbox_trigger" href="static/patric_metal.png" title="Patric métal SA est votre partenaire pour tout conseil et développement de prototypes, de séries et d’ensembles de pièces métalliques. Le concept de « tôlerie intégrale » permet de réaliser sur mesure tout type de produit avec un haut niveau d’intégration">
+                        <h3>Patric métal SA</h3>
+                      </a>
 
 
-                      <div class="timeline-body">
-                        <p>Beaux-Arts 30, Neuchâtel</p>
-                      </div>
+
+                      <h4> Collaborateur Finances</h4>
+                      <h5>Aide pour la comptabilité et Finances </h5>
+                      <h5>Geneveys-sur-Coffrane, Neuchâtel</h5>
+
 
                     </div>
 
@@ -377,7 +252,134 @@
                 </li>
                 <li class="timeline">
                   <div class="posted-date">
-                    <span class="month">2011-2013</span>
+                    <span class="month">03.2015 - 07.2015</span>
+                  </div>
+                  <!-- /posted-date -->
+
+                  <div class="timeline-panel wow fadeInUp">
+                    <div class="timeline-content">
+
+
+
+                      <a class="lightbox_trigger" href="static/armee_ch.png" title="L'Armée suisse est une armée de milice encadrée de militaires professionnels. Elle a pour mission d'assurer la défense du territoire suisse, la sauvegarde des conditions d'existence de la Suisse et de contribuer à la promotion de la paix à l'étranger">
+                        <h3>Armée Suisse</h3>
+
+                      </a>
+                      <h4>Ordonnance de Bureau</h4>
+                      <h5>Ecole de Recrue</h5>
+                      <h5>Airolo, Tessin</h5>
+
+                    </div>
+
+
+
+
+                  </div>
+
+
+
+                </li>
+                <li class="timeline-inverted">
+                  <div class="posted-date">
+                    <span class="month">08.2014 - 02.2015</span>
+                  </div>
+                  <!-- /posted-date -->
+
+                  <div class="timeline-panel wow fadeInUp">
+                    <div class="timeline-content">
+
+                  <a class="lightbox_trigger" href="static/patric_metal.png" title="Patric métal SA est votre partenaire pour tout conseil et développement de prototypes, de séries et d’ensembles de pièces métalliques. Le concept de « tôlerie intégrale » permet de réaliser sur mesure tout type de produit avec un haut niveau d’intégration">
+                        <h3>Patric métal SA</h3>
+                      </a>
+
+
+
+
+                      <h4> Collaborateur Finances</h4>
+                      <h5>Aide pour la comptabilité et Finances</h5>
+                      <h5>Geneveys-sur-Coffrane, Neuchâtel</h5>
+
+
+                    </div>
+
+                  </div>
+
+                </li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+
+        <!--.row-->
+      </div>
+      <!-- .container -->
+
+    </section>
+
+
+
+    <section id="formation">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="section-title">
+              <h2> <span class="glyphicon glyphicon-education"></span> Formation</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3">
+          </div>
+
+
+          <div class="col-md-9">
+
+            <div class="resume">
+              <ul class="timeline">
+                <li>
+                  <div class="posted-date">
+                    <span class="month">09.2015 - 12.2019</span>
+                  </div>
+                  <!-- /posted-date -->
+
+                  <div class="timeline-panel wow fadeInUp">
+                    <div class="timeline-content">
+
+                      <h3>Bachelor</h3>
+                      <h4>Informatique de Gestion</h4>
+                      <h5>Haute Ecole de Gestion ARC</h5>
+                      <h5> Neuchâtel</h5>
+
+                    </div>
+
+                  </div>
+
+                </li>
+                <li class="timeline-inverted">
+                  <div class="posted-date">
+                    <span class="month">08.2014 - 02.2015</span>
+                  </div>
+                  <!-- /posted-date -->
+
+                  <div class="timeline-panel wow fadeInUp">
+                    <div class="timeline-content">
+
+                      <h3>Maturité commerciale</h3>
+                      <h4>Assistant de Gestion</h4>
+                      <h5>Lycée Jean-Piaget</h5>
+
+                      <h5> Neuchâtel</h5>
+
+
+                    </div>
+
+                  </div>
+
+                </li>
+                <li class="timeline">
+                  <div class="posted-date">
+                    <span class="month">08.2010 - 06.2013</span>
                   </div>
                   <!-- /posted-date -->
 
@@ -386,21 +388,19 @@
 
 
                       <h3>Maturité gymnasiale</h3>
-                      <span>Lycée Jean-Piaget</span>
+                      <h4>Option Economie & Droit</h4>
+                      <h5>Lycée Jean-Piaget</h5>
 
-
-                      <div class="timeline-body">
-                        <p>Beaux-Arts 30, Neuchâtel</p>
-                      </div>
+                      <h5> Neuchâtel</h5>
 
                     </div>
 
                   </div>
 
                 </li>
-                  <li class="timeline-inverted">
+                <li class="timeline-inverted">
                   <div class="posted-date">
-                    <span class="month">2014</span>
+                    <span class="month">08.2001 - 06.2010</span>
                   </div>
                   <!-- /posted-date -->
 
@@ -408,35 +408,34 @@
                     <div class="timeline-content">
 
                       <h3>Ecole obligatoire</h3>
-                      <span>Ecole Primaire/Secondaire</span>
+                      <h4>Ecole Primaire et Secondaire</h4>
 
 
-                      <div class="timeline-body">
-                        <p>Collège des Acacias/Collège du Mail</p>
-                        <p> Neuchâtel</p>
-                      </div>
-                      </div>
+                      <h5>Collège des Acacias et du Mail</h5>
+                      <h5> Neuchâtel</h5>
+
+                    </div>
                   </div>
 
                 </li>
-                </ul>
+              </ul>
+
 
             </div>
-            <!--.row-->
           </div>
         </div>
+        <!--.row-->
       </div>
-      <!--.row-->
-    </div>
-    <!-- .container -->
+      <!-- .container -->
 
-  </section>
-  <section>
+    </section>
+  </div>
+  <section id="contact">
     <div class="container">
       <div class="row">
         <div class="col-md-3">
           <div class="section-title">
-            <h2>Contact</h2>
+            <h2> <span class="glyphicon glyphicon-envelope"></span> Contact</h2>
           </div>
         </div>
 
@@ -444,20 +443,20 @@
           <div class="row">
             <div class="col-md-3">
               <address>
-                <strong>Adresse</strong><br> Rue des Suite 90<br> 2000 Neuchâtel
+                Adresse<br> Rue des Suite 90<br> 2000 Neuchâtel
 
               </address>
             </div>
             <div class="col-md-3">
               <address>
-                <strong>Numéro portable</strong><br> +41 79 876 6284
+                Numéro portable<br> +41 79 876 6284
               </address>
             </div>
 
             <div class="col-md-3">
               <address>
-                <strong>Email</strong><br>
-                <a href="mailto:#">nico@hotmail.ch</a>
+                Email<br>
+                <a href="mailto:nico@hotmail.ch">nico@hotmail.ch</a>
               </address>
             </div>
 
@@ -471,7 +470,7 @@
 
   <div id="lightbox">
     <div id="content">
-      <img src="#" />
+      <img src="static/img_not_found.png" alt="Image pour Jquery Lightbox" />
     </div>
     <div id="info">
 

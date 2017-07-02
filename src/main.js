@@ -39,9 +39,9 @@ function makeChart (c, val) {
 
             datasets: [
                 {
-                    backgroundColor: ['#000000', '#8e5ea2'],
+                    backgroundColor: ['#7D8339', '#2B3E50'],
                     borderColor: ['#000000', '#000000'],
-                    data: [100 - val, val]
+                    data: [val, 100 - val]
                 }
             ]
         },
